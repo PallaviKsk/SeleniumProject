@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Main {
+    
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+String str,rev="";
+Scanner in = new Scanner(System.in);
+System.out.println("Enter your String");
+str = in.nextLine();
+ char[] arr=str.toCharArray();
+ 
+ for(char c:arr)
+ {
+     rev=c+rev;
+ }
+System.out.println(rev);
+}
+}
