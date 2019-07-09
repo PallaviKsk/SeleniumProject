@@ -4,9 +4,9 @@ public class Swap {
 public static void main(String[] args) 
 {
 Scanner sc=new Scanner(System.in);
-Scanner sc1=new Scanner(System.in);
+System.out.println("Enter numbers num1 and num2 to swap");
 int num1=sc.nextInt();
-int num2=sc1.nextInt();
+int num2=sc.nextInt();
 System.out.println("numbers before swap"+num1+" "+num2);
 num1=num1+num2;
 num2=num1-num2;
