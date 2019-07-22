@@ -1,0 +1,22 @@
+public class Missingnumberinarray
+{
+  static int[] arr=new int[]{1,2,3,4,5,6,7,9,10};
+  
+  public static void main(String[] args)
+  {
+    int sum=0,sumofarr=0;
+    
+   for(int i=1;i<=10;i++)
+   {
+      sum=sum+i;
+   }
+   for(int j=0;j<=arr.length-1;j++)
+   { 
+    sumofarr=sumofarr+arr[j];
+    }
+    System.out.println(sum +" "+sumofarr);
+    System.out.println("Missing number in arr is: "+(sum - sumofarr));
+    
+  }
+  
+} 
